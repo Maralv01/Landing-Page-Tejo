@@ -1,6 +1,7 @@
 # 🥏 MECHA-COMMERCE
 
-**MECHA-COMMERCE** es una landing page e-commerce inspirada en el deporte del **tejo o turmequé**, una práctica tradicional colombiana con más de 500 años de historia y origen asociado a Turmequé, Boyacá.donde el objetivo es reventar la **MECHA**  
+**MECHA-COMMERCE** es una landing page e-commerce inspirada en el deporte del **tejo o turmequé**, una práctica tradicional colombiana con más de 500 años de historia y origen asociado a Turmequé, Boyac, donde el objetivo es golpear y reventar la **MECHA** al lanzar un bloque de acero en forma de cono achatado de minimo 200 gramos de peso y desde una distancia entre 10 y 18 metros.
+
 El proyecto busca promover la compra de productos para practicar tejo mientras aporta valor cultural al visibilizar una tradición reconocida como parte de la identidad colombiana. 
 
 ## ✨ ¿Qué hace este proyecto?
