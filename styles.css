@@ -154,10 +154,11 @@ section img:hover {
     color: white;
 }
 
+.btn-cart:hover {
+    background: #e2dcda;
+}
 
-/* ===============================
-   🏷️ BADGE
-================================ */
+/* BADGE */
 .badge-top {
     position: absolute;
     top: 10px;
@@ -175,44 +176,4 @@ section img:hover {
 ================================ */
 #carrito-contenedor p {
     margin: 0;
-}
-
-.offcanvas h5 {
-    color: var(--mecha-acero);
-}
-
-#total {
-    color: var(--mecha-oro);
-    font-weight: bold;
-}
-
-
-/* ===============================
-   🧾 FOOTER
-================================ */
-footer {
-    background-color: var(--mecha-acero);
-}
-
-footer h4 {
-    color: white;
-}
-
-footer p {
-    color: #ccc;
-}
-
-footer a {
-    color: var(--mecha-crema);
-}
-
-footer a:hover {
-    color: var(--mecha-oro);
-}
-.card-ecommerce {
-    cursor: pointer;
-}
-
-.btn-cart {
-    letter-spacing: 1px;
 }
