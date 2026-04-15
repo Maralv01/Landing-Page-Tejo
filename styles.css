@@ -5,7 +5,7 @@
   --mecha-acero: #2C2C2E;
   --mecha-arcilla: #B85C38;
   --mecha-crema: #F2E8DF;
-  --mecha-oro: #FFD700;
+  --mecha-oro: #eb8613;
   --mecha-bg: #FBFBFD;
   --mecha-text: #1D1D1F;
   --mecha-numeros-svg:#d35400;
@@ -98,7 +98,7 @@ section img:hover {
 
 /* TEXTO */
 .title {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     color: var(--mecha-acero);
@@ -110,6 +110,7 @@ section img:hover {
 }
 
 .price {
+    font-size: 18px;
     font-weight: bold;
     margin: 5px 0;
     text-align: center;
