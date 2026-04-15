@@ -59,6 +59,7 @@ function renderProductos()
 // AGREGAR
 function agregarAlCarrito(id)
 {
+    const alerta = document.getElementById('alerta-carrito');
     const producto = productos.find(p => p.id === id);
 
     const existe = carrito.find(p => p.id === id);
@@ -68,6 +69,11 @@ function agregarAlCarrito(id)
     } else {
         carrito.push({ ...producto, cantidad: 1 });
     }
+    
+    alerta.classList.remove('d-none');
+    setTimeout(() => {
+        alerta.classList.add('d-none');
+    }, 2000);
 
     guardarCarrito();
     renderCarrito();

@@ -137,6 +137,16 @@ section img:hover {
     background: #e2dcda;
 }
 
+/*ALERT CARRITO*/
+.check {
+    width: 20px;
+    height: 20px;
+    fill: #d35400;
+}
+#alerta-carrito {
+    right: 20px;
+}
+
 /* BADGE */
 .badge-top {
     position: absolute;
@@ -152,3 +162,4 @@ section img:hover {
 #carrito-contenedor p {
     margin: 0;
 }
+
