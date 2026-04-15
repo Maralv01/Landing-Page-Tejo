@@ -52,11 +52,24 @@ body {
 .title {
     font-size: 14px;
     font-weight: bold;
+    text-align: center;
+}
+
+.description {
+    min-height: 216px;
+    text-align: justify;
 }
 
 .price {
     font-weight: bold;
     margin: 5px 0;
+    text-align: center;
+    color: #d35400;
+}
+
+#contenedor-productos img {
+    height: 150px;
+    
 }
 
 .desc {
