@@ -177,3 +177,9 @@ section img:hover {
 #carrito-contenedor p {
     margin: 0;
 }
+
+.historia-tejo {
+    width: 470px;
+    box-shadow: 12px 9px 6px rgba(139, 69, 19, 0.25);
+    padding-right: 0px;
+}
