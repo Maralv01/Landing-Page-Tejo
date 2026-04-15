@@ -1,7 +1,7 @@
-# 🥏 TURME-COMMERCE
+# 🥏 MECHA-COMMERCE
 
-**TURME-COMMERCE** es una landing page e-commerce inspirada en el deporte del **tejo o turmequé**, una práctica tradicional colombiana con más de 500 años de historia y origen asociado a Turmequé, Boyacá. [web:1][web:10]  
-El proyecto busca promover la compra de productos para practicar tejo mientras aporta valor cultural al visibilizar una tradición reconocida como parte de la identidad colombiana. [web:3][web:9]
+**MECHA-COMMERCE** es una landing page e-commerce inspirada en el deporte del **tejo o turmequé**, una práctica tradicional colombiana con más de 500 años de historia y origen asociado a Turmequé, Boyacá.donde el objetivo es reventar la **MECHA**  
+El proyecto busca promover la compra de productos para practicar tejo mientras aporta valor cultural al visibilizar una tradición reconocida como parte de la identidad colombiana. 
 
 ## ✨ ¿Qué hace este proyecto?
 
