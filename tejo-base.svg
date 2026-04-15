@@ -1,0 +1,81 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="800" y1="0" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7B5A39"/>
+      <stop offset="1" stop-color="#4E3521"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 230) rotate(90) scale(120 180)">
+      <stop stop-color="#FFD36A" stop-opacity="1"/>
+      <stop offset="0.45" stop-color="#FF8A1E" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#FF4D00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="smoke" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 180) rotate(90) scale(90 140)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#CFC7BF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-100%" y="-100%" width="300%" height="300%">
+      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- muro fondo -->
+  <path d="M0 0H1600V260C1350 290 1220 310 1000 300C760 290 560 230 320 220C170 214 70 225 0 240V0Z" fill="#D6B24B" opacity="0.35"/>
+  <path d="M0 260C220 230 420 250 620 285C830 322 1030 330 1280 290C1410 268 1510 240 1600 230V900H0V260Z" fill="#8C6638" opacity="0.18"/>
+
+  <!-- cancha inclinada -->
+  <g filter="url(#shadow)">
+    <path d="M350 820L1100 820L980 320L460 320L350 820Z" fill="#7C4B25"/>
+    <path d="M380 800L1060 800L955 355L465 355L380 800Z" fill="#8B552A"/>
+    <path d="M420 770L1018 770L930 390L495 390L420 770Z" fill="#9C6332"/>
+  </g>
+
+  <!-- tierra -->
+  <path d="M430 760C520 700 620 680 760 675C870 672 950 690 1030 730L990 780H450L430 760Z" fill="#7A4A24" opacity="0.85"/>
+
+  <!-- bocín -->
+  <g transform="translate(790 240)">
+    <circle cx="0" cy="0" r="56" fill="#6D4A2B"/>
+    <circle cx="0" cy="0" r="26" fill="#2A1A10"/>
+    <circle cx="0" cy="0" r="14" fill="#A67C52"/>
+    <circle cx="0" cy="0" r="9" fill="#1A110B"/>
+  </g>
+
+  <!-- mecha encendida -->
+  <g transform="translate(790 220)">
+    <circle cx="0" cy="0" r="70" fill="url(#glow)"/>
+    <circle cx="0" cy="0" r="42" fill="url(#smoke)" opacity="0.65"/>
+    <path d="M-10 20C0 -15 8 -25 16 -46C18 -53 14 -63 8 -70C2 -76 -4 -78 -10 -80C-16 -77 -24 -70 -25 -62C-27 -50 -20 -35 -17 -22C-14 -10 -15 5 -10 20Z" fill="#F5E7D8"/>
+    <path d="M-6 10C3 -8 16 -17 24 -40C28 -52 24 -62 18 -70C12 -78 3 -82 -8 -84C-18 -81 -28 -73 -32 -63C-35 -50 -29 -35 -23 -18C-18 -4 -14 8 -6 10Z" fill="#BDB1A7" opacity="0.65"/>
+    <circle cx="0" cy="0" r="8" fill="#FFD56A"/>
+    <circle cx="0" cy="0" r="18" fill="#FF8A1E" opacity="0.55"/>
+  </g>
+
+  <!-- tejo cayendo -->
+  <g transform="translate(720 150) rotate(-18)">
+    <circle cx="0" cy="0" r="30" fill="#6C6C6C"/>
+    <circle cx="-8" cy="-8" r="8" fill="#A8A8A8"/>
+    <circle cx="12" cy="10" r="5" fill="#3C3C3C"/>
+  </g>
+
+  <!-- fragmentos / chispas -->
+  <g fill="#FF4D00">
+    <circle cx="760" cy="250" r="4"/>
+    <circle cx="800" cy="260" r="3"/>
+    <circle cx="835" cy="248" r="4"/>
+    <circle cx="785" cy="285" r="3"/>
+    <circle cx="825" cy="290" r="2"/>
+  </g>
+
+  <!-- brillos en la tierra -->
+  <g fill="#D8A46A" opacity="0.55">
+    <path d="M520 690L545 675L565 685L540 700Z"/>
+    <path d="M650 730L670 717L690 726L670 742Z"/>
+    <path d="M940 705L960 694L978 702L958 717Z"/>
+  </g>
+
+  <!-- humo -->
+  <path d="M770 170C740 140 742 110 770 92C800 72 845 78 860 112C872 138 855 160 840 177C825 195 795 196 770 170Z" fill="#D9D0C5" opacity="0.38"/>
+  <path d="M740 115C720 90 725 65 748 54C774 41 804 45 818 65C830 82 825 103 810 117C792 133 760 136 740 115Z" fill="#ECE6DE" opacity="0.25"/>
+</svg>
