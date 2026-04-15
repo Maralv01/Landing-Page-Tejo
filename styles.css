@@ -8,6 +8,7 @@
   --mecha-oro: #FFD700;
   --mecha-bg: #FBFBFD;
   --mecha-text: #1D1D1F;
+  --mecha-numeros-svg:#d35400;
 }
 
 .navbar
@@ -185,6 +186,23 @@ section img:hover {
 /* ===============================
    🛒 CARRITO
 ================================ */
+
+.check {
+    height: 20px;
+    width: 20px;
+    fill: var(--mecha-numeros-svg);
+}
+
+#alerta-carrito {
+    right: 10px;
+}
+
 #carrito-contenedor p {
     margin: 0;
+}
+
+.historia-tejo {
+    width: 470px;
+    box-shadow: 12px 9px 6px rgba(139, 69, 19, 0.25);
+    padding-right: 0px;
 }
