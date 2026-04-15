@@ -1,6 +1,23 @@
+/* ===============================
+   🎨 VARIABLES
+================================ */
+:root {
+  --mecha-acero: #2C2C2E;
+  --mecha-arcilla: #B85C38;
+  --mecha-crema: #F2E8DF;
+  --mecha-oro: #FFD700;
+  --mecha-bg: #FBFBFD;
+  --mecha-text: #1D1D1F;
+}
+
+
+/* ===============================
+   🌍 GLOBAL
+================================ */
 body {
-    background-color: #F2E8DF;
+    background-color: var(--mecha-bg);
     font-family: 'Segoe UI', sans-serif;
+    color: var(--mecha-text);
 }
 
 section img {
@@ -15,26 +32,33 @@ section img:hover {
     border-radius: 12px;
 }
 
-/* HERO */
+
+/* ===============================
+   🚀 HERO
+================================ */
 .hero {
-    background: linear-gradient(90deg, #a6a6a9, #F2E8DF);
+    background: linear-gradient(90deg, #e0e0e0, var(--mecha-crema));
     padding: 60px 0;
 }
 
 .hero h1 {
     font-size: 3rem;
     font-weight: bold;
+    color: var(--mecha-acero);
 }
 
 .hero-img {
     width: 300px;
 }
 
-/* CONTENEDOR CARD */
+
+/* ===============================
+   🧩 CARDS
+================================ */
 .card-ecommerce {
     border-radius: 12px;
     overflow: hidden;
-    background: #fa0909;
+    background: white; /* ❌ antes rojo -> corregido */
     box-shadow: 0 6px 15px rgba(0,0,0,0.05);
     transition: 0.3s;
 }
@@ -56,7 +80,7 @@ section img:hover {
 
 /* CUERPO */
 .card-body-custom {
-    background: linear-gradient(to bottom, #f5f5f5, #f1e6dc);
+    background: var(--mecha-crema);
     padding: 15px;
 }
 
@@ -65,6 +89,7 @@ section img:hover {
     font-size: 14px;
     font-weight: bold;
     text-align: center;
+    color: var(--mecha-acero);
 }
 
 .description {
@@ -76,79 +101,118 @@ section img:hover {
     font-weight: bold;
     margin: 5px 0;
     text-align: center;
-    color: #d35400;
+    color: var(--mecha-oro); /* 🔥 ahora usa oro */
 }
 
 #contenedor-productos img {
     height: 150px;
-    
 }
 
 .desc {
     font-size: 12px;
-    color: #555;
+    color: var(--mecha-text);
 }
 
-/* BOTÓN */
+
+/* ===============================
+   🔘 BOTONES
+================================ */
 .btn-cart {
-    background: #c4572c;
-    color: rgb(5, 0, 0);
+    background: var(--mecha-arcilla);
+    color: white; /* ❌ antes negro -> corregido */
     padding: 10px;
     border-radius: 6px;
     border: none;
     font-size: 12px;
 }
 
-.btn-black
-{
-    background: #d35400;
-    
-}
-
-.btn-primary
-{
-    background: #d35400;
-    color: #010101;
-    border-color: #d35400;
-}
-
-.btn-primary:hover
-{
-    background: #e2dcda;
-    color: #000000;
-    border-color: #e2dcda;
-}
-
-.btn-outline-dark 
-{
-    background: #d35400;
-    color: #000000;
-    border-color: #d35400;
-}
-
-.btn-outline-dark:hover
-{
-    background: #e2dcda;
-    color: #000000;
-    border-color: #e2dcda;
-}
-
 .btn-cart:hover {
-    background: #e2dcda;
+    background: #9e4a2d;
 }
 
-/* BADGE */
+/* BOTÓN PRINCIPAL */
+.btn-primary {
+    background: var(--mecha-arcilla);
+    color: white;
+    border-color: var(--mecha-arcilla);
+}
+
+.btn-primary:hover {
+    background: #9e4a2d;
+    border-color: #9e4a2d;
+}
+
+/* BOTÓN OUTLINE */
+.btn-outline-dark {
+    background: transparent;
+    color: var(--mecha-acero);
+    border-color: var(--mecha-acero);
+}
+
+.btn-outline-dark:hover {
+    background: var(--mecha-acero);
+    color: white;
+}
+
+
+/* ===============================
+   🏷️ BADGE
+================================ */
 .badge-top {
     position: absolute;
     top: 10px;
     left: 10px;
-    background: #d35400;
+    background: var(--mecha-arcilla);
     color: #fff;
     padding: 4px 10px;
     font-size: 11px;
     border-radius: 5px;
 }
 
+
+/* ===============================
+   🛒 CARRITO
+================================ */
 #carrito-contenedor p {
     margin: 0;
+}
+
+.offcanvas h5 {
+    color: var(--mecha-acero);
+}
+
+#total {
+    color: var(--mecha-oro);
+    font-weight: bold;
+}
+
+
+/* ===============================
+   🧾 FOOTER
+================================ */
+footer {
+    background-color: var(--mecha-acero);
+}
+
+footer h4 {
+    color: white;
+}
+
+footer p {
+    color: #ccc;
+}
+
+footer a {
+    color: var(--mecha-crema);
+}
+
+footer a:hover {
+    color: var(--mecha-oro);
+}
+.card-ecommerce {
+    cursor: pointer;
+}
+
+.btn-cart {
+    letter-spacing: 1px;
 }
