@@ -3,6 +3,18 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
+section img {
+    transition: 0.3s;
+}
+
+section img:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    border-radius: 12px;
+}
+
 /* HERO */
 .hero {
     background: linear-gradient(90deg, #a6a6a9, #F2E8DF);
