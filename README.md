@@ -62,18 +62,24 @@ El carrito de compras se gestiona completamente en el frontend:
 
 ## 🌎 Inspiración cultural
 
-El tejo, también conocido como **turmequé**, tiene raíces precolombinas y está ligado históricamente a Turmequé, Boyacá. [web:10][web:1]  
-Además de ser considerado el deporte nacional de Colombia, también ha sido reconocido como patrimonio cultural, lo que lo convierte en una excelente inspiración para una propuesta digital con identidad local. [web:3][web:7]
+El tejo, también conocido como **turmequé**, tiene raíces precolombinas y está ligado históricamente a Turmequé, Boyacá. 
+
+Además de ser considerado el deporte nacional de Colombia, también ha sido reconocido como patrimonio cultural, lo que lo convierte en una excelente inspiración para una propuesta digital con identidad local. 
 
 ## 🚀 Propuesta de valor
 
-TURME-COMMERCE no solo vende productos:  
-**conecta tecnología, cultura y comercio digital** en una experiencia web moderna que reinterpreta un símbolo tradicional colombiano para nuevas audiencias. [web:3][web:9]
+MECHA-COMMERCE no solo vende productos:  
+**conecta tecnología, cultura y comercio digital** en una experiencia web moderna que reinterpreta un símbolo tradicional colombiano para nuevas audiencias. 
 
 ## 👨‍💻 Equipo
 
-Proyecto desarrollado durante una hackathon del bootcamp de desarrollo web full stack.  
+Proyecto desarrollado durante una hackathon del bootcamp de desarrollo web full stack Java en Generatio Cohorte 11 en 2026.  
 Enfocado en demostrar habilidades de maquetación, manipulación del DOM, persistencia en frontend y diseño de experiencias de usuario.
+
+Jurany Ramirez -  Developer Full Stack
+Didier Alexis Cuan Najas - DEveloper Full Stack
+Marlon Alvarez - Developer Full Stack
+Fernando Alayón - Developer Full Stack
 
 ## 📌 Próximas mejoras
 
