@@ -180,67 +180,70 @@ function renderProductos()
 // AGREGAR
 function agregarAlCarrito(id)
 {
-    const alerta = document.getElementById('alerta-carrito');
-    const producto = productos.find(p => p.id === id);
+  const alerta = document.getElementById('alerta-carrito');
+  const producto = productos.find(p => p.id === id);
 
-    const existe = carrito.find(p => p.id === id);
+  const existe = carrito.find(p => p.id === id);
 
-    if (existe) {
-        existe.cantidad++;
-    } else {
-        carrito.push({ ...producto, cantidad: 1 });
-    }
+  if (existe)
+  {
+    existe.cantidad++;
+  }
+  else
+  {
+    carrito.push({ ...producto, cantidad: 1 });
+  }
     
-    alerta.classList.remove('d-none');
-    setTimeout(() => {
-        alerta.classList.add('d-none');
-    }, 2000);
+  alerta.classList.remove('d-none');
+  setTimeout(() => {
+  alerta.classList.add('d-none');
+  }, 2000);
 
-    guardarCarrito();
-    renderCarrito();
+  guardarCarrito();
+  renderCarrito();
 }
 
 
 // ELIMINAR
 function eliminarProducto(id)
 {
-    carrito = carrito.filter(p => p.id !== id);
-    guardarCarrito();
-    renderCarrito();
+  carrito = carrito.filter(p => p.id !== id);
+  guardarCarrito();
+  renderCarrito();
 }
 
 
 // GUARDAR
 function guardarCarrito()
 {
-    localStorage.setItem("carrito", JSON.stringify(carrito));
+  localStorage.setItem("carrito", JSON.stringify(carrito));
 }
 
 
 // RENDER CARRITO
 function renderCarrito()
 {
-    carritoContenedor.innerHTML = "";
-    let total = 0;
+  carritoContenedor.innerHTML = "";
+  let total = 0;
 
-    carrito.forEach(p => {
-        total += p.precio * p.cantidad;
-
-        carritoContenedor.innerHTML += `
+  carrito.forEach(p =>
+  {
+    total += p.precio * p.cantidad;
+      carritoContenedor.innerHTML += `
         <div class="d-flex justify-content-between mb-2">
             <div>
-                <p>${p.nombre}</p>
-                <small>Cant: ${p.cantidad}</small>
+              <p>${p.nombre}</p>
+              <small>Cant: ${p.cantidad}</small>
             </div>
             <div>
-                <p>$${p.precio}</p>
-                <button onclick="eliminarProducto(${p.id})">❌</button>
+              <p>$${p.precio}</p>
+              <button onclick="eliminarProducto(${p.id})">❌</button>
             </div>
         </div>
         `;
-    });
+  });
 
-    totalElemento.textContent = total;
+  totalElemento.textContent = total;
 }
 
 
